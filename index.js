@@ -5,7 +5,7 @@ var request = require('request');
 var app = express();
 app.use(bodyParser.json());
 
-const APP_TOKEN = 'EAAa1EzhbLfIBAAKdmJOlNIBWQSkYnpxhJunj3mvQEJXJ2ZA5CiIZBsCprd3R0ZCVJ3Gh0IYyqZCBxXguAkVaHyvrHe7PWGSNiumSOSOnYJBZBZBJBph3pNmgSv11eiOj5vy5EsN8WdwTDM1DC9tGqfuW56xWmaTf1xRAhn57FFzwZDZD';
+const APP_TOKEN = '';
 
 app.get('/', function(req, res){
 	res.send('Bienvenido ejemplo de bot');
